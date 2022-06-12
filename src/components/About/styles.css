@@ -1,0 +1,104 @@
+
+.flex-item{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  min-width: 425px;
+  max-width:800px;
+  background-color: #fff;
+  min-height: 300px;
+  max-height: 600px;
+  /* border: 1px dotted purple; */
+}
+#para{
+width: 80%;
+/* height:400px; */
+background-color: #fff;
+/* border: 1px dotted blue; */
+align-self: center;
+text-align: left;
+margin-top: 3rem;
+margin-bottom: 3rem;
+
+}
+.creative #para{
+  /* margin-top:0rem; */
+  align-self: flex-start;
+  margin-top: 2rem;
+}
+.flex-item .creative{
+  min-height: 200px;
+  max-height: 600px;
+  /* border: 1px dotted red; */
+
+}
+#photo1{
+  /* background-image: url("../../images/port1.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  width:100%;
+  /* height: 100%; */
+  background-color: #D8E3E8;
+}
+/* ----------------professional------------------- */
+.prof{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+ align-items: stretch;
+ max-width: 1600px;
+}
+.prof #detail-header{
+margin-top:2vh;
+font-size: 1.5rem;
+background-color: transparent;
+}
+.prof{
+}
+.head-shot{
+  /* box-sizing: border-box; */
+max-height: 80%;
+  min-width: 100%;
+  /* min-width: 280px; */
+  /* max-width: 400px; */
+  /* min-height: 200px;
+  max-height:500px; */
+}
+#graph1{
+  display: flex;
+justify-content: center;
+align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #D8E3E8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.graphs{
+width: 90%;
+max-width: 505px;
+display: block;
+
+}
+#photo1-plum{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #D8E3E8;
+}
+.personal{
+  width: 80%;
+  max-width: 397px;
+}
+.contact{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
