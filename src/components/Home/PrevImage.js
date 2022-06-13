@@ -1,15 +1,15 @@
 import React from 'react';
-import coffee from '../../images/preview/coffee-clicker-big.png';
-import medFlow from '../../images/preview/medFlowClinic-big.png';
-import monument from '../../images/preview/monument-big.jpg';
-import mtv from '../../images/preview/mtv-big.jpg';
-import pixel from '../../images/preview/pixel-click-big.png';
-import pop from '../../images/preview/pop-big.jpg';
-import portfolio from '../../images/preview/portfolio-big.png';
-import relaxr from '../../images/preview/relaxr-big.jpg';
-import rioport from "../../images/preview/rioport-big.jpg";
-import vh1 from '../../images/preview/vh1-big.jpg';
-import artGallery from '../../images/preview/art-gallery-big.png';
+import coffee from '../../images/preview/800x400.png';
+import medFlow from '../../images/preview/800x400.png';
+import monument from '../../images/preview//800x400.png';
+import mtv from '../../images/preview/800x400.png';
+import pixel from '../../images/preview/800x400.png';
+import pop from '../../images/preview/800x400.png';
+import portfolio from '../../images/preview/800x400.png';
+import relaxr from '../../images/preview/800x400.png';
+import rioport from '../../images/preview/800x400.png';
+import vh1 from '../../images/preview/800x400.png';
+import artGallery from '../../images/preview/800x400.png';
 
 const PrevImage = (props) => {
   const { project } = props;
