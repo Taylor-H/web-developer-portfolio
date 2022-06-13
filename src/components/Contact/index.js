@@ -1,13 +1,12 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { init } from '@emailjs/browser';
-import useForm from './useForm';
-// import { StyledSlideMenu, CloseMenuIcon, FaGithubIcon } from '../Styled/';
+
+
 
 init(process.env.REACT_APP_USER_ID);
 const Contact = () => {
-const formState = useRef();
-const { handleChange, values, errors } = useForm();
+  const formState = useRef();
 const [formResult , setResult] = useState({formResult: ''});
 const [formData, setFormData] = useState({
 firstname: '',
@@ -23,7 +22,7 @@ e.preventDefault();
 emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`, `${process.env.REACT_APP_TEMPLATE_ID}`, formState.current,
 `${process.env.REACT_APP_USER_ID}`)
 .then((result) => {
-// console.log('formResult', formState);
+
 (result.text === 'OK') ? setResult(result.text): alert('Message failed to send');
 }, (error) => {
 console.log(error.text);

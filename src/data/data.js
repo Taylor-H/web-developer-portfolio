@@ -1,4 +1,4 @@
-//Here is where to put categories and projects. The app will sort the projects into whichever category is listed. you
+// categories.catName and projects.categories have to match for the project to show under that category in the navigation.
 const data = {
   categories: [
     {
@@ -80,7 +80,7 @@ const data = {
         'Example feature 5',
       ],
       links: { gitHub: 'https://github.com/', live: 'https://www.example.com' },
-      images: { prevImgName: 'portfolio', prevImg: 'portfolio-big.png' },
+      images: { prevImgName: 'portfolio', prevImg: '800x400.png' },
       categories: ['app', 'creative'],
       featured: true,
     },
@@ -112,7 +112,7 @@ const data = {
         'Example feature 5',
       ],
       links: { gitHub: 'https://github.com/', live: 'https://www.example.com' },
-      images: { prevImgName: 'portfolio', prevImg: 'portfolio-big.png' },
+      images: { prevImgName: 'portfolio', prevImg: '800x400.png' },
       categories: ['game'],
       featured: true,
     },
@@ -144,7 +144,7 @@ const data = {
         'Example feature 5',
       ],
       links: { gitHub: 'https://github.com/', live: 'https://www.example.com' },
-      images: { prevImgName: 'portfolio', prevImg: 'portfolio-big.png' },
+      images: { prevImgName: 'portfolio', prevImg: '800x400.png' },
       categories: ['app', 'creative'],
       featured: true,
     },
@@ -176,7 +176,7 @@ const data = {
         'Example feature 5',
       ],
       links: { gitHub: 'https://github.com/', live: 'https://www.example.com' },
-      images: { prevImgName: 'portfolio', prevImg: 'portfolio-big.png' },
+      images: { prevImgName: 'portfolio', prevImg: '800x400.png' },
       categories: ['app', 'creative'],
       featured: false,
     },

@@ -10,9 +10,9 @@ const Home = () => {
     <div className="con-h">
       <div className="circle-image"></div>
       <div className="container">
-        <p>Hi, I'm Taylor.</p>
+        <p>Hi, I'm _______.</p>
         <p>
-          I'm a Full Stack Web Developer based near Boston, MA. I design and
+          I'm a Full Stack Web Developer based near ___. I design and
           develop dynamic web applications, and games. This is a collection of my most recent{' '}
           <Link to="projects">
             <b>projects</b>.
@@ -21,7 +21,7 @@ const Home = () => {
         <div className="more-link-container">
           <div>
             <Link className="more-link" to="about">
-              About&nbsp;Taylor&#8250;
+              About&nbsp;________&#8250;
             </Link>
           </div>
         </div>
