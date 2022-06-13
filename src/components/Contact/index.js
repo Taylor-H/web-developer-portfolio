@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { init } from '@emailjs/browser';
 
-
+//emailjs service info stored in .env file but removed in this version for security reasons
 
 init(process.env.REACT_APP_USER_ID);
 const Contact = () => {

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import rioport from '../../images/800x400.png';
 import mtv from '../../images/800x400.png';
 import vh1 from '../../images/800x400.png';

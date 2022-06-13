@@ -7,8 +7,9 @@ export const Sidebar = (props) => {
   const params = useParams();
   const viewWidth = window.innerWidth;
   const { projectId } = params;
+  //set the state of the sidebar
   const [dropdownOpen, setDropdownOpen] = useState({});
-  // console.log('sidebar props', props);
+
   const categories = getCategories();
   const projects = getProjects();
 
@@ -25,9 +26,9 @@ export const Sidebar = (props) => {
       }));
     }
   };
-  const onCollapseCategories = () => {
-    setDropdownOpen({});
-  };
+  // const onCollapseCategories = () => {
+  //   setDropdownOpen({});
+  // };
   const toggleSection = (category) => {
     onToggleHeader(category);
     closeMenu();

@@ -3,7 +3,7 @@ import Footer from './components/Navigation/Footer';
 import Sidebar from './components/Sidebar';
 import { Link, Outlet } from 'react-router-dom';
 import { CloseMenuIcon, OpenMenuIcon, Button } from './components/Styled';
-import logo from './images/taylor-H.png';
+// import logo from './images/example.png';
 function App() {
   const [open, setOpen] = useState(true);
   // const viewWidth = window.innerWidth;
@@ -18,10 +18,9 @@ function App() {
   return (
     <>
       <header>
-        {/* <div className="header"> */}
         <Link to="/">
           <div className="name-container">
-              <img src={logo} alt="Taylor Hembree" className="logo" />
+              Firstname Lastname
           </div>
         </Link>
           <div className="hamburg-icon">
@@ -35,7 +34,6 @@ function App() {
               </Button>
             )}
           </div>
-        {/* </div> */}
       </header>
       <div className="home-container">
         <div className={'flex-item-left'}>
